@@ -18,9 +18,8 @@ void testApp::setup(){
 void testApp::update(){
     if(go && value <= max){
         value += 50;
-        max += 40;
+        max += 40; 
     }
-
 }
 
 //--------------------------------------------------------------
